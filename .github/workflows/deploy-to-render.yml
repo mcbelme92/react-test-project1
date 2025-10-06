@@ -30,6 +30,7 @@ jobs:
         run: |
           rm -rf server/websites/project1/*
           cp -r dist/* server/websites/project1/
+          cp -r dist/assets server/websites/project1/assets
 
       - name: Commit and push to server repo
         run: |
