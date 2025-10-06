@@ -38,4 +38,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Deploy update" || echo "No changes to commit"
-          git push origin main || echo "No push needed"
+          git push origin master || echo "No push needed"
