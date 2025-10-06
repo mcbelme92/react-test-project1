@@ -2,7 +2,7 @@ name: Build and Deploy to Render Server
 
 on:
   push:
-    branches: [ main ]  # o la rama que uses
+    branches: [ master ]  # o la rama que uses
   workflow_dispatch:
 
 jobs:
